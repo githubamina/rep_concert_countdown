@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reputation Stadium Tour Countdown</string>
+    <string name="option1">Countdown</string>
+    <string name="option2">Bio</string>
+    <string name="option1v">Countdown</string>
+    <string name="option2v">Bio</string>
+</resources>

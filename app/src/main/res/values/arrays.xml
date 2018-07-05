@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+        <string-array name="settings">
+            <item>@string/option1</item>
+            <item>@string/option2</item>
+        </string-array>
+
+    <string-array name="settingsv">
+        <item>@string/option1v</item>
+        <item>@string/option2v</item>
+    </string-array>
+
+
+
+</resources>

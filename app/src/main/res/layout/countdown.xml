@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"  android:background="@mipmap/bg" android:backgroundTint="#8000" android:backgroundTintMode="src_atop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:padding="20dp"
+        android:src="@mipmap/anz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/ticketek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="See ticketek for updates on concert"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concert Time: 7:00pm"
+        android:textSize="30sp"
+        android:padding="20dp"/>
+
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time til concert: "
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:textSize="30sp"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:lineSpacingExtra="10dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:id="@+id/timeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="10dp"/>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:padding="20dp"
+            android:text="Concert Location:\nANZ Stadium,\nSydney Olympic Park"/>
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:src="@mipmap/anzz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:padding="20dp"
+            android:text="Seating Map"/>
+
+        <ImageView
+            android:id="@+id/mapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:src="@mipmap/ss" />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
